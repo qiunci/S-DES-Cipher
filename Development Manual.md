@@ -67,11 +67,7 @@ flowchart TB
     GUI -->|"仅依赖 SDESCore 的公开接口<br/>通过 ProcessListener 接收过程回调"| CORE
     CORE --> UTIL
 ```
-```
-
----
-
-## 2. 模块划分
+2. 模块划分
 
 | 类                          | 包     | 职责                                  | 依赖                       |
 | --------------------------- | ------ | ------------------------------------- | -------------------------- |
@@ -136,8 +132,6 @@ public static String decrypt(String cipherText8, String key10)
 **功能**：对 8-bit 密文解密，返回 8-bit 明文。
 
 **参数 / 返回 / 异常**：同 `encrypt`
-
-
 
 ---
 
