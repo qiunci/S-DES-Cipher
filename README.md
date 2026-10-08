@@ -107,8 +107,6 @@ java -cp out sdes.SDESServerGui
   逆初始置换 IP⁻¹       : 11100111
   输出                 : 密文 C = 11100111
 
-### 字符串加密
-
 ```
 
 
@@ -116,7 +114,7 @@ java -cp out sdes.SDESServerGui
 输入任意字符串（如 `Hello`），按 ASCII 每字符 1 Byte 分组，  
 逐字符 S-DES 加密后拼装为密文字符串。日志区显示每组的：
 
-```bash
+```text
 原字符 → ASCII 十进制 → 8-bit 二进制 → S-DES 密文 → 密文字符
 ```
 
