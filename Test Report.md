@@ -1,4 +1,4 @@
-# ** S-DES 加解密工具 测试报告**
+# S-DES 加解密工具 测试报告
 
 > ****Test Report for Simplified DES (S-DES) Cipher Tool****截图见 `Screenshots/` 目录。
 
