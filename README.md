@@ -14,8 +14,9 @@
 - [项目简介](#项目简介)
 - [功能特性](#功能特性)
 - [快速开始](#快速开始)
-- [使用说明](#使用说明){[Using Instrustions（完整版）](Using%20Instrustions.md)}
+- [使用说明](#使用说明)&emsp;{[Using Instrustions（完整版）](Using%20Instrustions.md)}
 - [算法说明](#算法说明)
+- [接口文档](#接口文档)&emsp;{[Development Manual（完整版）](Development%20Manual.md)}
 - [作者](#作者)
 
 ---
@@ -190,4 +191,42 @@ java -cp out sdes.SDESServerGui
 密钥扩展：k_i = P8( Shift^i( P10(K) ) ),  i = 1, 2
 轮函数：F(R, K) = SPBox( SBox( EPBox(R) ⊕ K ) )
 ```
+
+## 接口文档
+
+### `SDESCore` —— 算法核心
+
+| 方法                                                                     | 说明                                  |
+| ------------------------------------------------------------------------ | ------------------------------------- |
+| `String encrypt(String p8, String k10)`                                  | 8-bit 明文 + 10-bit 密钥 → 8-bit 密文 |
+| `String decrypt(String c8, String k10)`                                  | 8-bit 密文 + 10-bit 密钥 → 8-bit 明文 |
+| `String encryptWithLog(String p8, String k10, ProcessListener l)`        | 带过程回调的单字符加密                |
+| `String decryptWithLog(String c8, String k10, ProcessListener l)`        | 带过程回调的单字符解密                |
+| `String encryptString(String msg, String k10)`                           | 字符串加密                            |
+| `String decryptString(String msg, String k10)`                           | 字符串解密                            |
+| `String encryptStringWithLog(String msg, String k10, ProcessListener l)` | 带过程回调的字符串加密                |
+| `String decryptStringWithLog(String msg, String k10, ProcessListener l)` | 带过程回调的字符串解密                |
+| `String[] generateSubKeys(String k10)`                                   | 生成 [k1, k2]                         |
+| `BruteForceResult bruteForce(String p8, String c8, ProcessListener l)`   | 已知明文暴力破解                      |
+| `String permute(String in, int[] table)`                                 | 通用位置换                            |
+| `String xor(String a, String b)`                                         | 按位异或                              |
+| `void validateBinary(String bits, int len, String name)`                 | 校验二进制串                          |
+
+### 回调接口 `SDESCore.ProcessListener`
+
+java
+
+void onStep(String groupLabel, String fieldName, String value);
+
+### `BruteForceResult` —— 破解结果
+
+| 字段 / 方法                   | 说明                   |
+| ----------------------------- | ---------------------- |
+| `String cipherText`           | 被破解的密文           |
+| `String knownPlainText`       | 已知的明文             |
+| `List<String> candidates`     | 所有候选密钥           |
+| `long elapsedNanos`           | 总耗时（纳秒）         |
+| `int totalTried`              | 穷举的密钥总数         |
+| `double elapsedMillis()`      | 总耗时（毫秒）         |
+| `double averageNanosPerKey()` | 平均每密钥耗时（纳秒） |
 
