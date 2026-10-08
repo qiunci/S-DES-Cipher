@@ -58,6 +58,9 @@ S-DES（Simplified DES）是一种教学用的简化版 DES 算法，分组长�
 
 ### 编译与运行
 
+- 运行SDESServerGui.java开启服务端ui界面
+- 运行SDESGuiApp.java开启客户端ui界面
+
 ```bash
 # 1. 克隆仓库
 git clone https://github.com/<your-username>/S-DES-Cipher.git
