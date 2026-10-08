@@ -70,6 +70,7 @@ java -cp out sdes.SDESGuiApp
 
 # 4. 可选：运行服务端 GUI（接收密文 + 主动发送）
 java -cp out sdes.SDESServerGui
+```
 
 ## 使用说明
 
