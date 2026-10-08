@@ -183,11 +183,10 @@ java -cp out sdes.SDESServerGui
 
 ### 加解密公式
 
-text
-
+```text
 加密：C = IP⁻¹( f_k2( SW( f_k1( IP(P) ) ) ) )
 解密：P = IP⁻¹( f_k1( SW( f_k2( IP(C) ) ) ) )
 密钥扩展：k_i = P8( Shift^i( P10(K) ) ),  i = 1, 2
 轮函数：F(R, K) = SPBox( SBox( EPBox(R) ⊕ K ) )
-
+```
 
