@@ -71,8 +71,7 @@ java -cp out sdes.SDESGuiApp
 # 4. 可选：运行服务端 GUI（接收密文 + 主动发送）
 java -cp out sdes.SDESServerGui
 ```
-
-## 使用说明
+使用说明
 
 ### 主界面（4 个标签页）
 
@@ -142,3 +141,4 @@ java -cp out sdes.SDESServerGui
 - 输出所有候选密钥、总耗时、平均每密钥耗时
 
 - 若候选 > 1，提示需要用第二组 (P,C) 进一步筛选
+
