@@ -12,7 +12,7 @@
 
 - [2. 模块划分](#2-模块划分)
 
-- [3. 核心接口：`SDESCore`](#3-核心接口sdescore)
+- [3. 核心接口：](#3-核心接口sdescore)
 
               - 3.1 [单字符加解密](#31-单字符加解密)
 
@@ -30,11 +30,11 @@
 
               - 3.8 [暴力破解](#38-暴力破解)
 
-- [4. 回调接口：`ProcessListener`](#4-回调接口processlistener)
+- [4. 回调接口：](#4-回调接口processlistener)
 
-- [5. 结果封装：`BruteForceResult`](#5-结果封装bruteforceresult)
+- [5. 结果封装：](#5-结果封装bruteforceresult)
 
-- [6. 字体工具：`FontProvider`](#6-字体工具fontprovider)
+- [6. 字体工具：](#6-字体工具fontprovider)
 
 - [7. 集成示例](#7-集成示例)
 
