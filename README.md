@@ -69,8 +69,8 @@ cd S-DES-Cipher
 # 2. 编译
 javac -d out src/sdes/*.java
 
-# 3. 运行主界面（客户端 + 加解密 + 暴力破解）
+# 3. 运行客户端 （加解密 + 暴力破解）
 java -cp out sdes.SDESGuiApp
 
 # 4. 可选：运行服务端 GUI（接收密文 + 主动发送）
-java -cp out sdes.SDESServerGuition-Security-assignment
+java -cp out sdes.SDESServerGui
