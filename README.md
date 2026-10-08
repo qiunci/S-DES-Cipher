@@ -19,6 +19,7 @@
 - [算法说明](#算法说明)
 - [接口文档](#接口文档)&emsp;{[Development Manual（完整版）](Development%20Manual.md)}
 - [测试结果](#测试结果)&emsp;{[Test Report（完整版）](Test%20Report.md)}
+- [项目结构](#项目结构)
 
 ---
 ## 作者
@@ -345,3 +346,64 @@ TCP 通信：
 
 ---
 
+## 项目结构
+
+S-DES-Cipher.
+│  Development Manual.md
+│  README.md
+│  Test Report.md
+│  Using Instrustions.md
+│
+├─S-DES
+│  │  S-DES.iml
+│  │
+│  ├─out
+│  │  └─production
+│  │      └─S-DES
+│  │          └─sdes
+│  │                  FontProvider.class
+│  │                  SDESCore$BruteForceResult.class
+│  │                  SDESCore$ProcessListener.class
+│  │                  SDESCore.class
+│  │                  SDESGuiApp$1.class
+│  │                  SDESGuiApp$2.class
+│  │                  SDESGuiApp$3.class
+│  │                  SDESGuiApp$RoundedBorder.class
+│  │                  SDESGuiApp.class
+│  │                  SDESServer.class
+│  │                  SDESServerGui$1.class
+│  │                  SDESServerGui.class
+│  │
+│  └─src
+│      └─sdes
+│              FontProvider.java
+│              SDESCore.java
+│              SDESGuiApp.java
+│              SDESServer.java
+│              SDESServerGui.java
+│
+└─Screenshots
+    ├─第一关
+    │      单字符转换.png
+    │      日志过程记录.png
+    │      正向加密过程 .png
+    │      逆向解密过程 .png
+    │
+    ├─第三关
+    │      ACII字符串加密.png
+    │      TCP客户端发送密文.png
+    │      TCP服务端发送密文1.png
+    │      TCP服务端发送密文2.png
+    │      字符串加密加载日志1.png
+    │      字符串加载加密日志2.png
+    │
+    ├─第二关
+    │      验证1密钥1010000010.png
+    │      验证2密钥1010110010.png
+    │
+    └─第四关
+            暴力破解.png
+            暴力破解日志.png
+            目标明密文组 .png
+
+--
