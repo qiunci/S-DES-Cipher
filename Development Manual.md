@@ -102,9 +102,9 @@ public final class SDESCore {
 public static String encrypt(String plainText8, String key10)
 ```
 
-    **功能**：对 8-bit 明文用 10-bit 密钥加密，返回 8-bit 密文。
+**功能**：对 8-bit 明文用 10-bit 密钥加密，返回 8-bit 密文。
 
-    **参数**：
+**参数**：
 
 - `plainText8`：长度 8 的二进制串（仅含 `'0'`/`'1'`）
 - `key10`：长度 10 的二进制串
