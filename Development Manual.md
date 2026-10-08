@@ -94,9 +94,8 @@ public final class SDESCore {
     // 全部方法为 static
 
 }
-### 3.1 单字符加解密
 ```
-
+### 3.1 单字符加解密
 #### `encrypt`
 
 ```java
