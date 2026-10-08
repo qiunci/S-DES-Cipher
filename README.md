@@ -14,7 +14,7 @@
 - [项目简介](#项目简介)
 - [功能特性](#功能特性)
 - [快速开始](#快速开始)
-- [使用说明](#使用说明){[Using Instrustions](Using%20Instrustions.md)}
+- [使用说明](#使用说明){[Using Instrustions（完整版）](Using%20Instrustions.md)}
 - [作者](#作者)
 
 ---
