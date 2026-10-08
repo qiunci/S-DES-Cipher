@@ -18,7 +18,7 @@
 - [使用说明](#使用说明)&emsp;{[Using Instrustions（完整版）](Using%20Instrustions.md)}
 - [算法说明](#算法说明)
 - [接口文档](#接口文档)&emsp;{[Development Manual（完整版）](Development%20Manual.md)}
-- [测试结果](#测试结果)&emsp;{[Development Manual（完整版）](Development%20Manual.md)}
+- [测试结果](#测试结果)&emsp;{[Test Report（完整版）](Test%20Report.md)}
 
 ---
 ## 作者
