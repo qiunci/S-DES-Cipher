@@ -141,7 +141,8 @@ java -cp out sdes.SDESServerGui
 
 - 若候选 > 1，提示需要用第二组 (P,C) 进一步筛选
 
-  #算法说明
+
+# 算法说明
 
 ### 参数
 
