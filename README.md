@@ -63,9 +63,9 @@ S-DES（Simplified DES）是一种教学用的简化版 DES 算法，分组长�
 | 第 4 关 | 暴力破解：穷举 1024 密钥，统计耗时与候选 | ✅ |
 | 第 5 关 | 封闭测试：分析密钥-明文-密文的多对多关系 | ✅ |
 
-### 暴力破解演示
-
 ---
+
+### 暴力破解演示
 
 ![演示](S-DES.gif) 
 
@@ -373,6 +373,7 @@ S-DES-Cipher.
 │  README.md
 │  Test Report.md
 │  Using Instrustions.md
+│  S-DES.gif
 │
 ├─S-DES
 │  │  S-DES.iml
