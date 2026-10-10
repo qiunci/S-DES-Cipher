@@ -8,7 +8,7 @@
 
 **方式 A：可执行.exe文件下载**
 
-[👉 点击这里下载](https://github.com/qiunci/S-DES-Cipher/releases/latest)
+[点击这里下载](https://github.com/qiunci/S-DES-Cipher/releases/latest)
 
 
 **方式 B：命令行**
