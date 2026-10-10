@@ -11,8 +11,8 @@
 
 # release+
 
-
-[![License]( https://img.shields.io/github/license/qiunci/S-DES-Cipher)](LICENSE)
+[![GitHub release (latest by date)]( https://img.shields.io/github/v/release/qiunci/S-DES-Cipher)](https://github.com/qiunci/S-DES-Cipher/releases)
+[![GitHub all releases]( https://img.shields.io/github/downloads/qiunci/S-DES-Cipher/total)](https://github.com/qiunci/S-DES-Cipher/releases)
 
 [👉 点击这里下载](https://github.com/qiunci/S-DES-Cipher/releases/latest)
 
