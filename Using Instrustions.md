@@ -4,9 +4,14 @@
 
 ## 一、启动程序
 
-### 两种启动方式
+### 三种启动方式
 
-**方式 A：命令行**
+**方式 A：可执行.exe文件下载**
+
+[👉 点击这里下载](https://github.com/qiunci/S-DES-Cipher/releases/latest)
+
+
+**方式 B：命令行**
 
 ```textile
 # 进入项目根目录，编译
@@ -19,7 +24,7 @@ java -cp out sdes.SDESGuiApp
 java -cp out sdes.SDESServerGui
 ```
 
-**方式 B：IDEA**
+**方式 C：IDEA**
 
 1. 打开项目，等待索引完成
 2. 找到 `SDESGuiApp.java`
